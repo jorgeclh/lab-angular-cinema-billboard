@@ -1,0 +1,28 @@
+.container {
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.movieDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.poster {
+  margin: 15px;
+  text-align: center;
+}
+
+.info {
+
+}
+
+img {
+  max-height: 300px;
+  object-fit: contain;
+  margin: 5px;
+}

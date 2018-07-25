@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="movie" *ngFor="let movie of moviesService.getMovies()">
+    <h3>ROOM {{movie.room}}</h3>
+    <br />
+    <img src="{{movie.poster}}" alt="{{movie.title}}" />
+    <br />
+    <a href="movie/{{movie.id}}">{{movie.title}}</a>
+  </div>
+</div>
